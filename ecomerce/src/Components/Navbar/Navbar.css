@@ -1,0 +1,77 @@
+.Navbar-header {
+    display: flex;
+    justify-content: space-between; 
+    align-items: center; 
+    padding: 10px 20px; 
+    background-color: #ffffff; 
+  }
+  
+  .navba-text {
+    display: flex;
+    align-items: center;
+    flex: 1; 
+  }
+  
+  .anvo {
+    font-size: 20px; 
+    font-weight: bold; 
+    color: #000; 
+    margin-left: 40px;
+    margin-right: -500px;
+  }
+  
+  .navba-text ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    gap: 20px; 
+    align-items: center;
+    justify-content: center; 
+    flex: 1; 
+    
+  }
+  .navba-text a {
+    text-decoration: none; 
+    color: #000;
+}
+.navba-text a:hover {
+  color: #555; 
+}
+  
+  .tex1 {
+    margin: 0;
+    font-size: 18px; 
+    text-align: center; 
+    color: #000;
+  }
+  
+  .tex2 {
+    display: flex;
+    align-items: center;
+    gap: 20px; 
+  }
+  
+  .tex2 .magnify-icon {
+    margin-right: 30px; 
+  }
+  
+  .icon-wrapper {
+    position: relative;
+  }
+  
+  .notification-bubble {
+    position: absolute;
+    top: -5px;
+    right: -9px;
+    background-color: #000; 
+    color: #fff; 
+    border-radius: 50%;
+    width: 15px;
+    height: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 12px;
+  }
+  

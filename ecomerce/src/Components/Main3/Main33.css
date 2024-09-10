@@ -1,0 +1,91 @@
+.Main33-head {
+    display: flex;
+    flex-direction: column;    
+    justify-content: center;
+    align-items: center;       
+    padding-top: 10px;
+    box-sizing: border-box;
+}
+
+.main-tex3 {
+    text-align: center;
+    margin-bottom: 40px;       
+}
+
+.forAnovuge {
+    position: relative;
+    top: 40px;
+    font-size: 30px;
+    font-weight: 500;
+    
+}
+.main-tex4 {
+    text-align: center;
+    margin-top: 10px;       
+}
+.forAnovo{
+    font-weight: 500;
+}
+.Section6 {
+    display: flex;
+    justify-content: center; /* Për të qendruar elementët */
+    align-items: center;
+    margin-top: 20px;
+}
+
+.sectioon-6 {
+    display: flex;
+    justify-content: center;
+    gap: 20px; /* Hapsira midis imazheve */
+    flex-wrap: wrap; /* Për t'u përshtatur kur ekrani është i vogël */
+}
+
+.Imazhhan {
+    width: 240px; /* Gjerësia e imazheve */
+    height: auto;
+    border-radius: 10px; /* Këndet e rrumbullakëta për dizajn më të mirë */
+    margin-top: 30px;
+}
+
+/* Rregullime për tekstin */
+.Main33-head {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 10px;
+    box-sizing: border-box;
+}
+
+.main-tex3 {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.forAnovuge {
+    font-size: 30px;
+    font-weight: 500;
+}
+
+.main-tex4 {
+    text-align: center;
+    margin-top: 10px;
+}
+
+.forAnovo {
+    font-weight: 500;
+}
+.Logot6 {
+    display: flex;                
+    justify-content: center;        
+    gap: 90px;                      
+    margin-top: 60px;              
+}
+
+.logo6 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+    width: auto;
+}

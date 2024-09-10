@@ -1,0 +1,314 @@
+.BacSales {
+    background-color: rgb(224, 231, 231);
+    width: 450px;
+    position: relative;
+    height: 55px;
+    border-radius: 19px;
+    margin-top: -15px;
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+    margin-left: 590px;
+    bottom: 110px;
+}
+
+.ContinerBac {
+    display: flex;
+    gap: 65px;  
+    font-size: 15px;
+    font-weight: 500;
+    color: #6a6868;
+    padding: 5px 10px;
+    border-radius: 8px;
+    transition: background-color 0.3s ease;
+}
+
+.tex {
+    transition: all 0.3s ease;  
+    padding: 5px 10px;  
+    border-radius: 8px; 
+}
+
+.tex:hover {
+    background-color: #ffffff;
+    color: #000000;
+    transform: scale(1.1);  
+}
+
+.mainforImgg {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    margin-top: -64px; 
+    left: 60px;
+}
+
+.img-containerr {
+    position: relative;
+    display: flex;
+    justify-content: center; 
+    gap: 30px;
+    bottom: 0;
+}
+
+.img-wrapperr {
+    position: relative;
+    width: 270px;
+    text-align: center;
+}
+
+.img-wrapperr img {
+    width: 100%;
+    border-radius: 10px;
+    height: 70%;
+}
+
+
+.sliderr-icon.leftt, .sliderr-icon.rightt {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 24px;
+    color: black;
+    cursor: pointer;
+    z-index: 10;
+
+   
+    background-color: rgba(217, 213, 213, 0.5); 
+    border-radius: 50%; 
+    padding: 7px; 
+    width: 20px; 
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.sliderr-icon.leftt {
+    position: relative;
+    margin-left: 10px;
+    left: 20px; 
+    bottom: 40px;
+    color: #2e2d2d;
+}
+
+.sliderr-icon.rightt {
+    position: relative;
+    right: 20px; 
+    bottom: 40px;
+    color: #2e2d2d;
+}
+.image-container {
+    position: relative;
+    display: inline-block;
+}
+
+.image-container img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.5); 
+    color: white; 
+    border-radius: 10px;
+    opacity: 0;
+    transition: opacity 0.3s ease;
+}
+
+.image-container:hover .overlay {
+    opacity: 1;
+}
+
+
+.overlay h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+
+.shop-button {
+    padding: 10px 20px;
+    background-color: white;
+    color: black;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.shop-button:hover {
+    background-color: black;
+    color: white;
+}
+.section-3 {
+    display: flex;
+    justify-content: center; 
+    gap: 20px; 
+    margin-top: 20px;
+}
+
+.section-3 img {
+    width: 750px;
+    height: auto; 
+    border-radius: 10px; 
+}
+.Section4 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 85px; /* Ulni hapësirën për të pasur më pak hap ndërmjet elementeve */
+    flex-wrap: wrap; 
+    margin-top: 90px;
+}
+
+.section-4 {
+    text-align: center;
+}
+
+.section-4 svg,
+.section-4 img {
+    width: 80px;
+    height: 80px; 
+}
+
+.section-4 p {
+    margin-top: 10px;
+    font-size: 16px; /* Rritni madhësinë e fontit për tekstin kryesor */
+    font-weight: bold; /* Shtoni trashësinë e fontit */
+    color: #333; /* Ngjyra e tekstit */
+}
+
+.section-4 .sub-text {
+    font-size: 12px; /* Madhësia e fontit për tekstin e dytë */
+    color: #666; /* Ngjyra e ndryshme për tekstin e dytë */
+    margin-top: 5px; /* Hapësira mbi tekstin e dytë */
+}
+
+
+
+.dark-background-section {
+    background-color: #eee9e9;
+    color: rgb(16, 15, 15);
+    padding: 40px 20px ;
+    text-align: center;
+}
+
+.Section5 {
+    margin-top: 40px; 
+}
+
+.Sect5Text {
+    text-align: center;
+    margin-bottom: 20px; 
+}
+
+.tex5 {
+    font-size: 30px;
+    font-weight: 500;
+    margin: 0; 
+}
+
+.section-5-wrapper {
+    display: flex;
+    justify-content: center; 
+    gap: 140px; 
+    flex-wrap: wrap; 
+}
+
+.sectioYlli {
+    background-color: white;
+    padding: 20px ;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 350px;
+    display: flex;
+    flex-direction: column; 
+    align-items: flex-start; 
+    box-sizing: border-box;
+    min-height: 200px;
+}
+
+.Yjet {
+    width: 100px;
+    margin: 0 auto 10px;
+    margin-right: 210px;
+}
+
+.seText {
+    font-weight: 500;
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.setExt1 {
+    font-size: 14px;
+    margin-bottom: 10px;
+    white-space: pre-wrap; 
+    text-align: left; 
+}
+
+.setExt2 {
+    font-weight: 500;
+    font-size: 14px;
+    margin-top: 10px;
+}
+
+.setExt3 {
+    font-weight: 300;
+    font-size: 12px;
+    margin-top: 5px;
+}
+.sectionForRrath {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 40px;
+}
+
+.rreth-wrapper {
+    display: flex;
+    gap: 10px; 
+}
+
+.rreth {
+    width: 8px;
+    height: 8px;
+    border-radius: 50%; 
+    background-color: white; 
+    border: 2px solid black; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+.rrethh {
+    width: 15px;
+    height: 15px;
+    border-radius: 50%; 
+    background-color: white; 
+    border: 2px solid black; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative; 
+    bottom: 3px;
+}
+
+.rreth-brenda {
+    width: 7px;
+    height: 7px;
+    border-radius: 50%;
+    background-color: #000; 
+}

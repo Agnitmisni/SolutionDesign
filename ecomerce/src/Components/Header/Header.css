@@ -1,0 +1,13 @@
+.Header-frist {
+    display: flex;
+    align-items: center; 
+    position: relative;
+    padding: 0 20px; 
+  }
+  .head-back img{
+    width: 106%;
+  }
+  
+  
+  
+  
